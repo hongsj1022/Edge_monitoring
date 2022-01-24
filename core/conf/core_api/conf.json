@@ -1,0 +1,25 @@
+{
+  "server": {
+    "service_name": "CTR",
+    "host": "0.0.0.0",
+    "port": "9090"
+  },
+  "is_redis": false,
+  "is_minio": false,
+  "is_mqtt": true,
+  "mqtt": {
+    "host": "cms.icnslab-aws.net",
+    "port": "1883",
+    "id": "icns_pub",
+    "passwd": "icns_pub" ,
+    "pub": "gom/v1/+/data",
+    "sub": "gom/v1/core/data"
+  },
+  "mysql": {
+    "host":"gom-core-db.c6hs1vf2hdpb.ap-northeast-2.rds.amazonaws.com",
+    "port": 3306,
+    "user":"admin",
+    "password":"Theoryofhappiness!",
+    "db":"cloud"
+  }
+}

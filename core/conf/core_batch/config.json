@@ -1,0 +1,20 @@
+{
+  "server": {
+    "service_name": "BATCH",
+    "host": "0.0.0.0",
+    "port": "9999"
+  },
+  "mysql": {
+    "host":"gom-core-db.c6hs1vf2hdpb.ap-northeast-2.rds.amazonaws.com",
+    "port": 3306,
+    "user":"admin",
+    "password":"Theoryofhappiness!",
+    "db":"cloud"
+  },
+  "influxdb": {
+    "host":"ip-172-31-21-1.ap-northeast-2.compute.internal",
+    "port": 8086,
+    "user":"icns",
+    "password":"iloveicns"
+  }
+}

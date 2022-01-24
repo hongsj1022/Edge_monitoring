@@ -1,0 +1,23 @@
+{
+  "api-server": "http://163.180.117.37:9090",
+  "packages":{
+    "ubuntu-desktop":"alicek106/book:hostname",
+    "ubuntu-server":"icnslab/cloud-package:ubuntu-server-0.0",
+    "centos-desktop":"alicek106/...",
+    "centos-server":"alicek106/...",
+
+    "python3.5-anaconda":"alicek106/...",
+    "tensorflow-cpu":"alicek106/...",
+    "tensorflow-gpu":"alicek106/...",
+    "object-removal":"percvlab/objectremoval:0.1"
+  },
+  "new-packages":[
+    {
+      "name":"object-removal",
+      "img":"2-objectremoval.png",
+      "title":"Object Removal (0.1)",
+      "tag":["image","object"],
+      "description":"입력된 동영상에서 물체를 제거합니다.."
+    }
+  ]
+}

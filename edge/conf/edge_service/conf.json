@@ -1,0 +1,18 @@
+{
+  "server": {
+    "service_name": "CTR",
+    "host": "0.0.0.0",
+    "port": "8080"
+  },
+  "is_redis": false,
+  "is_minio": false,
+  "is_mqtt": true,
+  "mqtt": {
+    "host": "163.180.117.58",
+    "port": "1883",
+    "id": "icns",
+    "passwd": "icns" ,
+    "pub": "gom/v1/<name>/data",
+    "sub": "gom/v1/<name>/cmd"
+  }
+}

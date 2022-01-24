@@ -1,0 +1,19 @@
+set (0,2)_Female (8,12)_female
+set (4,6)_Female (8,12)_female
+set (8,12)_Female (8,12)_female
+set (15,20)_Female (15,20)_female
+set (25,32)_Female (25,32)_female
+set (38,43)_Female (25,32)_female
+set (48,53)_Female (25,32)_female
+set (60,100)_Female (25,32)_female
+
+set (0,2)_Male (25,32)_male
+set (4,6)_Male (25,32)_male
+set (8,12)_Male (25,32)_male
+set (15,20)_Male (25,32)_male
+set (25,32)_Male (25,32)_male
+set (38,43)_Male (38,43)_male
+set (48,53)_Male (38,43)_male
+set (60,100)_Male (38,43)_male
+
+
